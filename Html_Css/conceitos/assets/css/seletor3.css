@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+[atributo]  {
+    color: red;
+}
+
+[checked]  {
+    width: 50px;
+    height: 50px;
+}
+
+.heading:hover{
+    background: red;
+}
+
+.heading{
+    transition: all 1s ease-in-out;
+}
+
+a{
+    color: orange;
+}
+
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:hover{
+    background: darkblue;
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    background: darkgoldenrod;
+    color: white;
+    text-decoration: none;
+}
+
+input:checked +p{
+    background: red;
+}
+
+input:not(:checked) +p{
+    background: yellow;
+}

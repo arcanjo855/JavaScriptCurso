@@ -1,0 +1,34 @@
+ul li::after{
+    content: " - ";
+    background-color: aqua;
+    color: #fff;
+    display: block;
+}
+
+ul li::before{
+    content: " - ";
+    background-color: aqua;
+    color: #fff;
+    display: block;
+}
+
+
+p::first-letter{
+    font-size: 160px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line{
+    background: gray;
+}
+
+p::selection{
+    background: black;
+    color: white;
+}
+
+::placeholder{
+    color: red;
+}

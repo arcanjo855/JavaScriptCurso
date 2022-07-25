@@ -1,0 +1,40 @@
+/*
+
+    STYLE        ID CLASSES, ATRIBUTOS E PSEUDOCLASSES       ELEMENTOS E PSEUDOSELEMENTOS 
+    1            1                    0                                0
+    0            0                    1                                0
+    0            1                    1                                0
+    0            1                    1                                1
+    0            2                    1                                1
+
+
+
+
+    ESPECIFICIDADE
+    EMPATE
+    STYLE
+    !IMPORTANT ******
+
+*/
+
+
+#p{
+    background: red;
+}
+
+#p.p{
+    background: yellow;
+}
+
+p#p.p{
+    background: blue;
+}
+
+
+body#b p#p.p{
+    background: green !important;
+}
+
+p{
+    background: orange !important; 
+}

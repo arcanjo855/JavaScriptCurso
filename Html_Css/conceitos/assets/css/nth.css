@@ -1,0 +1,20 @@
+ul li:nth-child(even){
+    background-color: darkviolet;
+}
+
+ul li:nth-child(odd){
+    background-color: darkturquoise;
+}
+
+ul li:nth-child(3n){
+    background-color: orange;
+}
+
+ul li:nth-child(3n+10){
+    background-color: red;
+}
+
+
+p:nth-child(even){
+    background: yellow;
+}
