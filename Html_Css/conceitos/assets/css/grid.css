@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+
+.grid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.grid div{
+    background: tomato;
+    min-height: 50px;
+}
+
+.grid div:nth-child(5),
+.grid div:nth-child(6){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    background: red;
+}
+
+.grid div:nth-child(5){
+    background: yellow;
+    z-index: 3;
+}
+
+.grid div:nth-child(6){
+    z-index: 2;
+}

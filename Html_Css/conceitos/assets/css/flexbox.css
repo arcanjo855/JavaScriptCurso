@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 24px;
+}
+
+
+p{
+    margin: 0 0 24px;
+}
+
+.two-collums{
+    display: flex;
+}
+
+
+.two-collums .col{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 30px;
+    background: blueviolet;
+}
+
+
+.galery{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.galery .image{
+    flex: 1 0 20%;
+    height: 60px;
+    margin: 10px;
+    background: red;
+}
+
+
